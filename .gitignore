@@ -1,0 +1,21 @@
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Model checkpoints and large files
+bert_sender_classifier/
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# Weights & Biases
+wandb/
+.wandb/
+
+# Data file
+result.json 
+
+# Logs
+*.log
+
